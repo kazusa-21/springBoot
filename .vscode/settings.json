@@ -1,0 +1,13 @@
+{
+    "accessibility.signalOptions.volume": 0,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.quickSuggestions": {
+        "other": "off"
+    },
+    "editor.quickSuggestionsDelay": 2000000,
+    "editor.suggest.selectionMode": "never",
+    "editor.suggestOnTriggerCharacters": false,
+    "terminal.integrated.suggest.suggestOnTriggerCharacters": false,
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
