@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>会員ページ</title></head>
+<body>
+    <h2>ようこそ、<span th:text="${name}"></span>さん</h2>
+    <p>これは専用サイトです</p>
+    <h1>キーワードを入力して下さい</h1>
+    <form action="/search" method="post">
+        <input type="text" name="keyword" placeholder="キーワードを入力">
+        <button type="submit">検索</button>
+    </form>
+</body>
+</html>

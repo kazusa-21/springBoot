@@ -1,0 +1,7 @@
+
+CREATE TABLE hotel (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    address VARCHAR(200) NOT NULL,
+    prefecture VARCHAR(100) NOT NULL
+);
